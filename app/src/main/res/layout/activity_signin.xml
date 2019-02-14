@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.auto.SigninActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="196dp"
+        android:onClick="signinUser"
+        android:text="sign in"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="291dp" />
+</RelativeLayout>

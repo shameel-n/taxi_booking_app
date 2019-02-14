@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "61497700362",
+    "firebase_url": "https://auto-28fb6.firebaseio.com",
+    "project_id": "auto-28fb6",
+    "storage_bucket": "auto-28fb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61497700362:android:4b175dfc156c5908",
+        "android_client_info": {
+          "package_name": "com.example.android.auto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61497700362-btmr53ifttiujcspu1ut6j631u28ts62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMmgksWoXoZkbay3NAJunBYpbfYpflM5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
